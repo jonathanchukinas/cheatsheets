@@ -1,0 +1,1 @@
+# openpyxl (Python module) Cheatsheet
