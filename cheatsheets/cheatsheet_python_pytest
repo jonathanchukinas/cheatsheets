@@ -1,4 +1,0 @@
-# pytest (Python ) Cheatsheet
-
-## Commands
-- `@pytest.fixture(autouse=True)` each pytest test will be sandwiched into this function. It's run once per test, doing all its setup and teardown each time.
