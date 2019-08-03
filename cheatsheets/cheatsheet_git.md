@@ -21,6 +21,7 @@ These are the two best resources I came across for learning git and how git work
 
 ### Initializing and connecting to remotes
 - [Upload existing local repo to new github repo](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
+- `git clone <repo url> <optional folder name>`
 
 ### Branching
 - `git checkout -b my_new_branch` create and switch to new branch
@@ -30,6 +31,9 @@ These are the two best resources I came across for learning git and how git work
 - `git branch –m my_new_branch renamed_branch` Rename a branch 
 - `git branch -d my_new_branch` Delete a branch 
 - `git tag v0.1.5` adds lightweight version tag to current commit
+- https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
+  - `git push --set-update origin <local repo name>` to push a local repo branch to remote
+- https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/
 
 ### Stage and Unstage
 - `git add <file_path>` to stage file
