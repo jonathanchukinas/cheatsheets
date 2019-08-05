@@ -126,3 +126,13 @@ Commands:
 ## PyCharm IDE
 - Can be configured to interface with git.
 - The terminal uses your Bash settings.
+
+# Other Stuff
+Justin: yeah you can have multiple git remotes, i might call them "origin" and "justincampbell" if I'm only temporarily keeping my fork or maybe "upstream" and "origin" if i'm primarily working out of my fork and only occasionally rebasing from upstream
+Justin: git remote add NAME URL
+git rebase NAME/master
+
+will update yours on top of the latest from that one
+Justin: i forgot you'd also have to git fetch NAME in between
+Justin: https://thoughtbot.com/blog/keeping-a-github-fork-updated
+
