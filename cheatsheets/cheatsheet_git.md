@@ -34,6 +34,7 @@ These are the two best resources I came across for learning git and how git work
 - https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
   - `git push --set-update origin <local repo name>` to push a local repo branch to remote
 - https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/
+- `git push --delete origin <branchname>` Delete remote branch
 
 ### Stage and Unstage
 - `git add <file_path>` to stage file
