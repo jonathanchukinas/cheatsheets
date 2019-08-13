@@ -32,7 +32,7 @@ These are the two best resources I came across for learning git and how git work
 - `git branch -d my_new_branch` Delete a branch 
 - `git tag v0.1.5` adds lightweight version tag to current commit
 - https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
-  - `git push --set-update origin <local repo name>` to push a local repo branch to remote
+  - `git push --set-upstream origin <local repo name>` to push a local repo branch to remote
 - https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/
 - `git push --delete origin <branchname>` Delete remote branch
 
