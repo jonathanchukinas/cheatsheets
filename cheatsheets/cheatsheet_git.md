@@ -30,11 +30,16 @@ These are the two best resources I came across for learning git and how git work
 - `git checkout my_new_branch` Switch to other branch 
 - `git branch –m my_new_branch renamed_branch` Rename a branch 
 - `git branch -d my_new_branch` Delete a branch 
-- `git tag v0.1.5` adds lightweight version tag to current commit
 - https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
   - `git push --set-upstream origin <local repo name>` to push a local repo branch to remote
 - https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/
 - `git push --delete origin <branchname>` Delete remote branch
+
+### Tags
+- `$ git tag v0.1.5` adds lightweight version tag to current commit. But annotated tags are better:
+- `$ git tag -a v0.1.5 -m "<feature name>"`
+- `$ git tag` lists all tags
+- `$ git push --tags` to explicitly push tags (this isn't done with a normal push)
 
 ### Stage and Unstage
 - `git add <file_path>` to stage file
