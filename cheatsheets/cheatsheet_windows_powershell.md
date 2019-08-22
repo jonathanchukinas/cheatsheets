@@ -8,6 +8,14 @@ https://www.howtogeek.com/50219/adding-a-shortcut-in-powershell-with-aliases/
 - https://www.powershellmagazine.com
 - https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-cheatsheet.pdf
 
+# Common Commands
+- `cd` change directory
+- `new-item` equivalent to Unix `touch`
+- `remove-item`
+- `tree /f` shows file/directory structure of current dir
+
+
+# Old
 remove dir
 - https://www.petri.com/delete-folder-file-from-command-line-powershell
 

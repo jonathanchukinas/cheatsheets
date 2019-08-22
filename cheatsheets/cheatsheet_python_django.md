@@ -1,0 +1,12 @@
+# Chapter 2 - Hello World app
+- `django-admin startproject <project_name> .` Note the period.
+- `tree /f` to view project structure
+- `python manage.py runserver`
+- `http://127.0.0.1:8000/` to view website
+- `python manage.py migrate` ... does something to take away the error messages
+- `Control + c` to stop running the server
+- `python manage.py startapp pages` creates dir and files for a pages app
+  - in `project/settings.py` add `'pages.apps.PagesConfig'` to `INSTALLED_APPS` (makes Python aware of app) 
+  - in `pages/views.py` add view function that returns `Hello World`
+  - in `pages/urls.py` add a urlpattern that maps a url to that function
+  - in `project/urls.py` add all pages urls
