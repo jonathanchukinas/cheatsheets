@@ -20,3 +20,8 @@ remove dir
 - https://www.petri.com/delete-folder-file-from-command-line-powershell
 
 color: https://beebom.com/how-change-powershell-color-scheme-windows-10/
+functions: 
+
+# Functions and Aliases
+-  `function pro { set-location "C:\Users\jchukina\projects\" }`
+- save to profile: `notepad++ $profile`
