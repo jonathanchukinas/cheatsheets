@@ -10,3 +10,15 @@
   - in `pages/views.py` add view function that returns `Hello World`
   - in `pages/urls.py` add a urlpattern that maps a url to that function
   - in `project/urls.py` add all pages urls
+  
+# Chapter 3 - Pages app
+##Core Concept
+- **URLs** control the routes and entry points
+- **VIEWs** provide content (the "what")
+  - Does the heavy lifting when there's a database
+- **TEMPLATEs** contain the HTML
+## Notes
+- Django looks for templates in a very specific pattern. We group them all together though. Added a dir to TEMPLATES in `settings.py`
+- Added a home.html in the templates folder; contains some very basic html
+
+- ...
