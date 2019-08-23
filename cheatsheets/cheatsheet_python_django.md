@@ -22,3 +22,17 @@
 - Added a home.html in the templates folder; contains some very basic html
 
 - ...
+
+# Udemy Course
+## Word Count
+- create `templates` dir and add to `settings.py`
+- create `views.py`. Add functions that return `django.http.HttpsResponse`.  
+- reference these in `urls.py`
+## Cheatsheet
+- Create new project: `django-admin startproject projectname`
+- Add app to project: `python3 manage.py startapp appname`
+- Start server: `python3 manage.py runserver`
+- Create migrations: `python3 manage.py makemigrations`
+- Migrate the database: `python3 manage.py migrate`
+- Create Super User for admin panel: `python3 manage.py createsuperuser`
+- Collect static files into one folder: `python3 manage.py collectstatic`
