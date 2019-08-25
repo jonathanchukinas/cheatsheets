@@ -67,7 +67,8 @@ These are the two best resources I came across for learning git and how git work
 
 
 ### .gitignore
-[Git docs: gitignore](https://git-scm.com/docs/gitignore)
+- [Git docs: gitignore](https://git-scm.com/docs/gitignore)
+- 
 ```
 # Exclude files containing:
 *pycache*
