@@ -17,6 +17,9 @@ These are the two best resources I came across for learning git and how git work
 - [Git docs](https://git-scm.com/docs)
 - [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 
+## Tools
+- posh-git PowerShell plugin
+
 ## Quick Reference
 
 ### Initializing and connecting to remotes
