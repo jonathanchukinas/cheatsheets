@@ -18,7 +18,9 @@ These are the two best resources I came across for learning git and how git work
 - [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 
 ## Tools
-- posh-git PowerShell plugin
+- [posh-git PowerShell plugin](https://github.com/dahlbyk/posh-git)
+  - `choco install poshgit`
+  - `Add-PoshGitToProfile`
 
 ## Quick Reference
 
