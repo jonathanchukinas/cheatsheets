@@ -104,6 +104,7 @@ These are the two best resources I came across for learning git and how git work
 - Configuration file for Git
 - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup 
 - Note: global settings affect all git interactions. Local is ... local to a single repository
+- `git config --list --show-origin` to show where config files are saved
 
 Commands:
 - `git config --global --list` lists all my global configurations 
