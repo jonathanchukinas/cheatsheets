@@ -117,7 +117,7 @@ Commands:
 - `ls` lists all files and directories. `ls -al` does the same in a structured format.
 
 #### Configure notepad++ as editor
-- Install Notepad++ 
+- Install Notepad++
 - Add Notepad++.exe's path to the path variable 
 - In Bash:
   - `notepad++` runs notepad++ 
@@ -129,6 +129,8 @@ Commands:
     - Restart BASH window to be able to use the alias. 
   - Open a file by: `npp <file_path>` 
   - [notepad++ command line switches](http://docs.notepad-plus-plus.org/index.php/Command_Line_Switches)
+- OR OR OR!! just add this to global config: `git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
+
 
 ## PyCharm IDE
 - Can be configured to interface with git.
