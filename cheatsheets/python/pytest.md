@@ -13,3 +13,7 @@
 
 ## Markers
 - `@pytest.mark.xfail` - we expect this test to fail
+
+## pytest-cov
+- `pytest --cov=myproj tests/`
+- `pytest --cov-report term-missing --cov=myproj tests/`
