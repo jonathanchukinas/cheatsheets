@@ -25,3 +25,6 @@ functions:
 # Functions and Aliases
 -  `function pro { set-location "C:\Users\jchukina\projects\" }`
 - save to profile: `notepad++ $profile`
+
+# Profile
+- stored in H:/WindowsPowerShell/MicrosoftPowerShell_profile.ps1
