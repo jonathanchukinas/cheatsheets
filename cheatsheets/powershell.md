@@ -11,7 +11,7 @@ https://www.howtogeek.com/50219/adding-a-shortcut-in-powershell-with-aliases/
 # Common Commands
 - `cd` change directory
 - `new-item` equivalent to Unix `touch`
-- `remove-item`
+- `remove-item <dir or file>` or `ri <dir or file>`
 - `tree /f` shows file/directory structure of current dir
 
 
