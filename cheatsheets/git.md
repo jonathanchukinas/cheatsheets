@@ -43,7 +43,7 @@ These are the two best resources I came across for learning git and how git work
 ### Tags
 - `$ git tag v0.1.5` adds lightweight version tag to current commit. But annotated tags are better:
 - `$ git tag -a v0.1.5 -m "<feature name>"`
-- `$ git tag` lists all tags
+- `$ git tag -n` lists all tags with their descriptions
 - `$ git push --tags` to explicitly push tags (this isn't done with a normal push)
 
 ### Stage and Unstage
