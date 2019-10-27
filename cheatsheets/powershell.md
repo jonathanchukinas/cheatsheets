@@ -28,3 +28,6 @@ functions:
 # Profile
 - `$profile` - find location 
 - `notepad++ $profile`- edit profile
+
+# Look into
+- https://www.infoworld.com/article/3126427/go-pro-the-power-users-guide-to-powershell.html
