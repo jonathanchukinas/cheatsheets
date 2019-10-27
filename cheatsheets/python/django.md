@@ -36,3 +36,6 @@
 - Migrate the database: `python3 manage.py migrate`
 - Create Super User for admin panel: `python3 manage.py createsuperuser`
 - Collect static files into one folder: `python3 manage.py collectstatic`
+
+# Articles
+- https://djangobook.com/mdj2-django-structure/
