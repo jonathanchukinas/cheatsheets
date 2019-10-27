@@ -16,3 +16,6 @@ keyring set https://upload.pypi.org/legacy/ <username>
 pip install flit
 flit publish
 ```
+
+## Versioning
+- See semantic versioning (semver)
