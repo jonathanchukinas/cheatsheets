@@ -48,6 +48,7 @@ flit publish
   - `git push --delete origin featurename`
   - `git checkout master`
   - `git merge featurename`
+  - `git branch -d featurename`
   - `git push`
 - readthedocs
 
