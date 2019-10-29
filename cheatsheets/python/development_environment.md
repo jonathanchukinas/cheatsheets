@@ -45,6 +45,7 @@ flit publish
   - `flit publish`
 - git
   - `git tag -a vX.Y.Z -m featurename`
+  - `git push --delete origin featurename`
   - `git checkout master`
   - `git merge featurename`
   - `git push`
