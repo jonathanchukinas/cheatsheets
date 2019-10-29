@@ -45,6 +45,7 @@ These are the two best resources I came across for learning git and how git work
 - `$ git tag -a v0.1.5 -m "<feature name>"`
 - `$ git tag -n` lists all tags with their descriptions
 - `$ git push --tags` to explicitly push tags (this isn't done with a normal push)
+- `git push --delete origin tagname` to delete a tag from a remote
 
 ### Stage and Unstage
 - `git add <file_path>` to stage file
