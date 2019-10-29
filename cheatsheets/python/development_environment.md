@@ -39,7 +39,7 @@ flit publish
   - quality check in browser
   - increment version (semver)
 - git
-  - `git fetch` and make sure 
+  - `git fetch`, check, then `git pull`
   - `git rebase -i master`
 - flit
   - `flit publish`
