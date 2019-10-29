@@ -50,6 +50,7 @@ flit publish
   - `git merge featurename`
   - `git branch -d featurename`
   - `git push`
+  - `git push --tags`
 - readthedocs
 
 # TODO
