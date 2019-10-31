@@ -25,5 +25,5 @@ functions:
 - https://www.infoworld.com/article/3126427/go-pro-the-power-users-guide-to-powershell.html
 =======
 - save to profile: `notepad++ $profile`
-
-https://github.com/janikvonrotz/awesome-powershell
+- https://github.com/janikvonrotz/awesome-powershell
+- https://medium.com/gettimely/automating-git-merges-with-powershell-and-vsts-546ee0dc0c04
