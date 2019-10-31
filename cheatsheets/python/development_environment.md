@@ -40,8 +40,9 @@ flit publish
   - make html
   - quality check in browser
   - check for TODOs
-- version
-  - increment version (semver)
+- version (semver)
+  - uprev `__init__`
+  - uprev `sphinx conf.py`
   - commit
 - final check
   - close IDE
