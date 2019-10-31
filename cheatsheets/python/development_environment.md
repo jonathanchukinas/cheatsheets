@@ -39,9 +39,13 @@ flit publish
   - update change log
   - make html
   - quality check in browser
+  - check for TODOs
 - version
   - increment version (semver)
   - commit
+- final check
+  - close IDE
+  - tox
 - git
   - `git fetch`, check, then `git pull`
   - `git rebase -i master`
@@ -56,7 +60,10 @@ flit publish
   - `git branch -d featurename`
   - `git push`
   - `git push --tags`
-- readthedocs
+- Afterwards
+  - readthedocs
+  - check RTD
+  - Document fixes to this pipeline.
 
 # TODO
 - connect to and automate readthedocs
