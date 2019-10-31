@@ -39,8 +39,9 @@ flit publish
   - update change log
   - make html
   - quality check in browser
-- version
-  - increment version (semver)
+- version (semver)
+  - uprev `__init__`
+  - uprev sphinx conf.py
   - commit
 - git
   - `git fetch`, check, then `git pull`
