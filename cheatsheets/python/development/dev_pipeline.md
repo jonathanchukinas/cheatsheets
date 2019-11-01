@@ -1,0 +1,42 @@
+# Development Pipeline
+- git
+  - make sure the previous version was tagged in git
+  - `git checkout -b featurename`
+  - (optional) `git push --set-upstream origin featurename`
+- code
+  - write tests, commit
+  - write code, commit
+  - tox - ensure all PASSes and 100% coverage
+  - commit
+- documentation
+  - docstrings
+  - tutorial, readme
+  - update change log
+  - make html
+  - quality check in browser
+  - check for TODOs
+- version (semver)
+  - uprev `__init__`
+  - uprev `sphinx conf.py`
+  - commit
+- final check
+  - close IDE
+  - tox
+- git
+  - `git fetch`, check, then `git pull`
+  - `git rebase -i master`
+- flit
+  - `flit publish`
+  - if fail, go back to git step
+- git
+  - `git tag -a vX.Y.Z -m featurename`
+  - `git push --delete origin featurename` (only if I had pushed it to remote)
+  - `git checkout master`
+  - `git merge featurename`
+  - `git branch -d featurename`
+  - `git push`
+  - `git push --tags`
+- Afterwards
+  - readthedocs
+  - check RTD
+  - Document fixes to this pipeline.
