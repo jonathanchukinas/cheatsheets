@@ -43,11 +43,14 @@ https://github.com/ryan-roemer/sphinx-bootstrap-theme
 	
 ## Step 3: Numpy / Google Docstrings
 - https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
+- https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 
 ## Step 4: Build the docs
 - docs/make.bat clean
 - docs/make.bat html
 
+# Examples of good documentation:
+- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
 
 ## References
 
