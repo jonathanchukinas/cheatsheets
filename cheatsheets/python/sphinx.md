@@ -44,6 +44,10 @@ https://github.com/ryan-roemer/sphinx-bootstrap-theme
 ## Step 3: Numpy / Google Docstrings
 - https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
 
+## Step 4: Build the docs
+- docs/make.bat clean
+- docs/make.bat html
+
 
 ## References
 
