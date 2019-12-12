@@ -10,6 +10,8 @@
 - `-l/--show-locals` shows local variables if a test fails
 - `--lf/--last-failed` runs only those tests that last failed
 - `-v` verbose mode
+- `-k` filter on test function name
+- `-m` filter on pytest marks
 
 ## Markers
 - `@pytest.mark.xfail` - we expect this test to fail

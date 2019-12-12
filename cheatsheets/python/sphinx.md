@@ -45,8 +45,13 @@ https://github.com/ryan-roemer/sphinx-bootstrap-theme
 - https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
 - https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 
+## references
+- :doc:`filename`
+
 # Examples of good documentation:
 - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
+
+
 
 ## References
 
