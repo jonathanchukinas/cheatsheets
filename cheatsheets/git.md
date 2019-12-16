@@ -39,6 +39,7 @@ These are the two best resources I came across for learning git and how git work
   - `git push --set-upstream origin <local repo name>` to push a local repo branch to remote
 - https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/
 - `git push --delete origin <branchname>` Delete remote branch
+- `git fetch --prune` remove local references to deleted remote branches
 
 ### Tags
 - `$ git tag v0.1.5` adds lightweight version tag to current commit. But annotated tags are better:
